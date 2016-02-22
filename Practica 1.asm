@@ -58,6 +58,7 @@ JMP 020
 #Inicia Impresion
 #085
 MSG -----Imprimir Matriz-----
+MSG --------Columna 1--------
 MOV AX,0B0
 EAP
 MOV AX,0B1
@@ -66,6 +67,7 @@ MOV AX,0B2
 EAP
 MOV AX,0B3
 EAP
+MSG --------Columna 2--------
 MOV AX,0B4
 EAP
 MOV AX,0B5
@@ -74,6 +76,7 @@ MOV AX,0B6
 EAP
 MOV AX,0B7
 EAP
+MSG --------Columna 3--------
 MOV AX,0B8
 EAP
 MOV AX,0B9
@@ -82,6 +85,7 @@ MOV AX,0BA
 EAP
 MOV AX,0BB
 EAP
+MSG --------Columna 4--------
 MOV AX,0BC
 EAP
 MOV AX,0BD
